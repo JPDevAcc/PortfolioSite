@@ -15,8 +15,11 @@ for (const el of document.getElementsByClassName('my-project')) {
 }
 
 function setTextOverlayVisiblity(parentEl, isVisible) {
-	const overlayEl = parentEl.querySelector('.project_overlay') ;
-	if (overlayEl) overlayEl.classList.toggle('d-none', !isVisible) ;
+	const overlayEl = parentEl.querySelector('.my-project-overlay') ;
+	if (overlayEl) {
+		overlayEl.classList.toggle('invisible', !isVisible) ; // (use invisible rather than d-none so transitions still work)
+		overlayEl.classList.toggle('my-opacity-100', isVisible) ;
+	}
 }
 
 // Add click event handlers for overlay buttons
