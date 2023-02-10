@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>James Percival | Full Stack Developer</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="styles.css">
+	<script src="js/main.js" type="module" defer></script>
+</head>
+<body>
+	<header class="mb-4">
+
+		<!-- JUMBOTRON -->
+    <div class="container-fluid ps-4 py-4 my-jumbotron">
+      <h1 class="display-6 fw-bold">James Percival - Full Stack Developer | Portfolio</h1>
+      <p class="col-md-8 fs-4">
+				<span class="fw-bold">Welcome to my site!<br></span>
+				<span class="my-page-intro">
+					Here you'll find a 
+					brief <a href="#intro">introduction</a>, 
+					links to <a href="#projects">projects</a> I've worked on, 
+					and a <a href="#history">timeline</a> of my recent work and education. You can also <a href="public\10_02_23 - James Percival CV - Web.docx">download a copy of my full CV</a>.<br>
+					If you'd like to get in touch, my <a href="#footer">contact details</a> can be found at the bottom of the page.
+				</span>
+			</p>
+    </div>
+
+		<!-- NAVBAR -->
+		<nav class="navbar navbar-expand-sm navbar-dark bg-dark my-navbar">
+			<div class="container-fluid">
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav me-auto">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#intro">Introduction</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#projects">Projects</a>
+						</li>
+							<li class="nav-item">
+							<a class="nav-link" href="#history">Timeline</a>
+						</li>
+					</ul>
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" href="#footer">Contact Details</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+  </header>
+
+	<!-- MAIN BODY CONTENT -->
+	<main class="container my-body-container">
+
+		<!-- INTRODUCTION -->
+		<section id="intro" class="my-intro-outer">
+			<h2 class="my-section-title">~ Introduction ~</h2>
+			<div class="row g-3">
+				<!-- ABOUT ME -->
+				<div class="col-md text-center my-inset-panel">
+				<h3 class="my-section-subtitle">About me</h3>
+					<div class="my-avatar-container m-auto">
+						<img src="images/avatar.svg" alt="">
+					</div>
+					<div class="mt-3">
+					<p>
+						I'm an <b>aspiring developer</b> with a background in <b>computer science</b> and <b>programming</b>.<br>
+					</p>
+					<p>
+						I enjoy <b>backend-development</b>, and <b>database / API design</b>, but am also highly 
+						capable with <b>front-end JavaScript</b>, proficient with <b>HTML</b>, and increasingly comfortable with <b>CSS</b>.<br>
+					</p>
+						I find <b>teamwork</b> rewarding but also have lots of experience <b>working independently</b> and I love to come up with <b>creative solutions</b>, 
+						while maintaining a strong attention to detail.
+					<p>
+					</div>
+				</div>
+
+				<!-- SKILLS -->
+				<section class="col-md text-center my-inset-panel">
+					<h3 class="my-section-subtitle">Skills</h3>
+					<div class="mt-3 text-start my-skills">
+						<ul>
+						    <li>Strong programming ability in a variety of languages</li>
+								<li>Good knowledge of JavaScript / TypeScript</li>
+								<li>Proficient with HTML5, CSS3 / SASS, Bulma and Bootstrap libraries</li>
+								<li>Good knowledge of Vue and Svelte</li> 
+								<li>Extensive PHP experience and familiarity with CodeIgniter 4</li>
+								<li>Strong understanding of relational databases, with significant MySQL experience</li>
+								<li>Version control systems, including Git, Mercurial, and Subversion</li>
+								<li>Experience of mobile development (iOS)</li>
+								<li>Collaborative, agile and test-driven development</li>
+								<li>Good troubleshooting skills and attention to documentation requirements</li>
+								<li>Understanding of common security issues and best practice</li>
+						</ul>
+					</div>
+				</section>
+			</div>
+		</section>
+
+		<!-- PROJECTS -->
+		<section id="projects" class="my-projects-outer">
+			<h2 class="my-section-title">~ Projects ~</h2>
+
+			<div class="my-projects my-inset-panel">
+				<div class="row g-3">
+					<a href="projects/project_retro.html" class="col-lg-4 text-center my-project">
+						<img src="images/project_retro.jpg" alt="Retro-computing hobby website">
+						<div class="project_overlay">
+							<nav>
+								<button data-url="https://jpdevacc.github.io/HobbySite" class="btn btn-primary my-button-overlay my-button-overlay-left">
+									Website
+								</button>
+								<button data-url="https://github.com/JPDevAcc/HobbySite" class="btn btn-primary my-button-overlay my-button-overlay-right">
+									Repository
+								</button>
+							</nav>
+							<div class="my-text-overlay my-text-overlay-top">Retro-computing site</div>
+							<div class="my-text-overlay my-text-overlay-bottom">HTML + CSS + Bootstrap</div>
+						</div>
+					</a>
+					<a href="projects/project_quiz.html" class="col-lg-4 text-center my-project">
+						<img src="images/project_quiz.avif" alt="JavaScript quiz project">
+						<div class="project_overlay">
+							<nav>
+								<button data-url="https://jpdevacc.github.io/JSQuiz" class="btn btn-primary my-button-overlay my-button-overlay-left">
+									Website
+								</button>
+								<button data-url="https://github.com/JPDevAcc/JSQuiz" class="btn btn-primary my-button-overlay my-button-overlay-right">
+									Repository
+								</button>
+							</nav>
+							<div class="my-text-overlay my-text-overlay-top">Quiz project</div>
+							<div class="my-text-overlay my-text-overlay-bottom">HTML + CSS + Bootstrap + JS</div>
+						</div>
+					</a>
+					<a href="projects/project_advgame.html" class="col-lg-4 text-center my-project">
+						<img src="images/project_advgame.avif" alt="JavaScript OOP adventure game project">
+						<div class="project_overlay">
+							<nav>
+								<button data-url="https://jpdevacc.github.io/JSTextAdventure" class="btn btn-primary my-button-overlay my-button-overlay-left">
+									Website
+								</button>
+								<button data-url="https://github.com/JPDevAcc/JSTextAdventure" class="btn btn-primary my-button-overlay my-button-overlay-right">
+									Repository
+								</button>
+							</nav>
+							<div class="my-text-overlay my-text-overlay-top">Text Adventure Game</div>
+							<div class="my-text-overlay my-text-overlay-bottom">HTML + CSS + Bootstrap + OOP JS</div>
+						</div>
+					</a>
+					<a href="projects/project_cipher.html" class="col-lg-4 mx-auto text-center my-project">
+						<img src="https://jpdevacc.github.io/JSCipher/images/photo-1667124060133-c1074b0124be.avif" alt="JavaScript cipher project">
+						<div class="project_overlay">
+							<nav>
+								<button data-url="https://jpdevacc.github.io/JSCipher" class="btn btn-primary my-button-overlay my-button-overlay-left">
+									Website
+								</button>
+								<button data-url="https://github.com/JPDevAcc/JSCipher" class="btn btn-primary my-button-overlay my-button-overlay-right">
+									Repository
+								</button>
+							</nav>
+							<div class="my-text-overlay my-text-overlay-top">JavaScript Cipher Project</div>
+							<div class="my-text-overlay my-text-overlay-bottom">HTML + CSS + Bootstrap + OOP JS</div>
+						</div>
+					</a>
+				</div>
+			</div>
+		</section>
+
+		<!-- WORK / EDUCATION HISTORY -->
+		<section id="history" class="my-history-outer">
+			<h2 class="my-section-title">~ Timeline ~</h2>
+			<div class="my-history my-inset-panel">
+				
+				<!-- The Developer Academy Bootcamp -->
+				<section class="my-history-entry">
+					<div class="row justify-content-between g-1">
+						<div class="col-md my-history-entry-position d-flex align-items-center">
+							<a href="https://learning.thedeveloperacademy.com/" target="_blank" class="my-history-entry-logo me-1">
+								<img src="https://learning.thedeveloperacademy.com/pluginfile.php/1/theme_moove/logo/1666709729/TheDevAcademy%20Logo%20NB.png" alt="">
+							</a>
+							<div>Student @ The Developer Academy</div>
+						</div>
+						<div class="col-md flex-grow-0 text-nowrap my-history-entry-date">
+							2023-01 -
+						</div>
+					</div>
+					<div class="my-history-entry-body">
+						<ul>
+							<li>12-week web-development bootcamp covering front and back-end technologies, testing, and collaborative working.</li>
+							<li>To date, covered Git, HTML / CSS (+ Bootstrap), JavaScript OOP, and Jest unit-testing / TDD.</li>
+						</ul>
+					</div>
+				</section>
+
+				<!-- Providr -->
+				<section class="my-history-entry">
+					<div class="row justify-content-between g-1">
+						<div class="col-md my-history-entry-position d-flex align-items-center">
+							<a href="https://providr.uk/" target="_blank" class="my-history-entry-logo me-1">
+								<img src="https://providr.uk/assets/logo2-86f483ed.svg" alt="">
+							</a>
+							<div>Web Developer @ Providr</div>
+						</div>
+						<div class="col-md flex-grow-0 text-nowrap my-history-entry-date">
+							2021-09 -
+						</div>
+					</div>
+					<div class="my-history-entry-body">
+						<ul>
+							<li>Ongoing voluntary position, contributing to the development of an online food-ordering service.</li>
+							<li>Technologies have included Vue, Svelte, PHP + CodeIgniter 4, MariaDB, NodeJS, and Mercurial.</li>
+							<li>Own work centered on the creation of a vendor 'portal' website (front and back-end) using CI4 and significant client-side JS.</li>
+							<li>Also made significant contributions to the end-user client application, first in Vue2 and then in Svelte.</li>
+							<li>More recently undertook the task of adding translation support to the front-facing providr.uk website.</li>
+						</ul>
+					</div>
+				</section>
+
+				<!-- UPlatz Online Web Development Courses -->
+				<section class="my-history-entry">
+					<div class="row justify-content-between g-1">
+						<div class="col-md my-history-entry-position d-flex align-items-center">
+							<a href="https://uplatz.com/" target="_blank" class="my-history-entry-logo me-1">
+								<img src="images/reading.avif" alt="">
+							</a>
+							<div>Student @ UPlatz</div>
+						</div>
+						<div class="col-md flex-grow-0 text-nowrap my-history-entry-date">
+							2021-01 - 2021-09
+						</div>
+					</div>
+					<div class="my-history-entry-body">
+						<ul>
+							<li>Beginner / intermediate-level courses in HTML5 / CSS3, JavaScript, ReactJS, Angular8, Django, MongoDB, and Java8.</li>
+						</ul>
+					</div>
+				</section>
+
+				<!-- OpenLearn Courses -->
+				<section class="my-history-entry">
+					<div class="row justify-content-between g-1">
+						<div class="col-md my-history-entry-position d-flex align-items-center">
+							<a href="https://www.open.edu/openlearn/profiles/zv488717/achievements" target="_blank" class="my-history-entry-logo me-1">
+								<img src="images/reading.avif" alt="">
+							</a>
+							<div>Student @ OU OpenLearn</div>
+						</div>
+						<div class="col-md flex-grow-0 text-nowrap my-history-entry-date">
+							2020 - 2021
+						</div>
+					</div>
+					<div class="my-history-entry-body">
+						<ul>
+							<li>Completed two online courses - "Discovering computer networks" and "Approaches to software development".</li>
+						</ul>
+					</div>
+				</section>
+
+				<!-- Computer Science -->
+				<section class="my-history-entry">
+					<div class="row justify-content-between g-1">
+						<div class="col-md my-history-entry-position d-flex align-items-center">
+							<a href="https://www.sheffield.ac.uk/" target="_blank" class="my-history-entry-logo me-1">
+								<img src="images/reading.avif" alt="">
+							</a>
+							<div>Student @ University of Sheffield (Computer Science, MCOMP, Class One)</div>
+						</div>
+						<div class="col-md flex-grow-0 text-nowrap my-history-entry-date">
+							2008-09 - 2013-06
+						</div>
+					</div>
+					<div class="my-history-entry-body">
+						<ul>
+							<li>Foundation year followed by four-year integrated-masters degree.</li>
+							<li>Gained an understanding of fundamental concepts and practical skills such as improved time management and team-working.</li>
+							<li>Developed agile and web-development skills in second-year group project working for a commercial client, and won IBM UK Labs prize for best project.</li>
+							<li>Won prizes for best exam performance in second and final year.</li>
+							<li>Notable modules included "Java Programming", "Software Development for Mobile Devices", and "Testing and Verification in Safety-Critical Systems".</li>
+						</ul>
+					</div>
+				</section>
+
+				<!-- Mature Access to HE Computing -->
+				<section class="my-history-entry">
+					<div class="row justify-content-between g-1">
+						<div class="col-md my-history-entry-position d-flex align-items-center">
+							<a href="https://www.sheffcol.ac.uk/" target="_blank" class="my-history-entry-logo me-1">
+								<img src="images/reading.avif" alt="">
+							</a>
+							<div>Student @ Sheffield College (Mature Access to HE Computing)</div>
+						</div>
+						<div class="col-md flex-grow-0 text-nowrap my-history-entry-date">
+							2007-09 - 2008-06
+						</div>
+					</div>
+					<div class="my-history-entry-body">
+						<ul>
+							<li>Intensive one-year course undertaken in preparation for university.</li>
+							<li>Covered programming, project lifecycle, organisational theory, mathematics (AS-equivalent), networks, text processing, spreadsheets, and databases.</li>
+							<li>Completed all modules, becoming the first person to ever be awarded all available level 3 credits for the course.</li>
+							<li>Nominated for an "Adult Learners' Week Award".</li>
+						</ul>
+					</div>
+				</section>
+
+			</div>
+		</section>
+	</main>
+	
+
+	<!-- FOOTER -->
+	<footer id="footer" class="my-footer">
+		<div class="d-flex justify-content-between">
+			<span>Site Design Copyright &#169; James Percival 2023</span>
+			<span class="text-end">Last Updated 2023-02-10</span>
+		</div>
+		<div class="my-contact-details">
+			E-mail: <a href="mailto:perciv.jam@gmail.com">perciv.jam@gmail.com</a><br>
+			LinkedIn: <a href="https://www.linkedin.com/in/james-p-1ba6ab265/">https://www.linkedin.com/in/james-p-1ba6ab265</a>
+		</div>
+	</footer>
+</body>
+</html>
