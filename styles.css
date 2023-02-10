@@ -71,6 +71,12 @@ body {
 .my-projects {
 	box-shadow: 1px 1px 8px rgba(0,0,0,0.75);
 }
+.my-project {
+	--border-width: 3px ;
+	--margin: 0.5rem ; /* From Boostrap */
+	--overlay-offset: calc(var(--margin) + var(--border-width)) ;
+}
+
 .my-project:not(:hover) {
 	filter: contrast(0.95)  brightness(0.95) ;
 	transition: filter 0.5s ;
@@ -80,27 +86,31 @@ body {
 }
 .my-project img {
 	width: 100%;
-	border: 3px outset #444;
+	border: var(--border-width) outset #444 ;
 	height: 300px;
 	object-fit: cover;
+	box-shadow: 3px 3px 4px rgba(0,0,0,0.6);
 }
-
+.my-project-overlay {
+	--text-overlay-top-height: 3rem ;
+	opacity: 0% ;
+}
 .my-text-overlay {
 	color: white;
 	background-color: black ;
 	position: absolute;
-	left:calc(0.5rem + 3px);
-	right:calc(0.5rem + 3px);
+	left: var(--overlay-offset) ;
+	right: var(--overlay-offset) ;
 }
 .my-text-overlay-top {
 	opacity: 90% ;
-	top:3px;
+	top: var(--border-width) ;
 	font-size: 145%;
-	height:3rem;
+	height: var(--text-overlay-top-height);
 }
 .my-text-overlay-bottom {
 	opacity: 70%;
-	bottom:0%;
+	bottom: var(--border-width) ;
 	font-size: 115%;
 }
 .my-button-overlay {
@@ -108,14 +118,14 @@ body {
 	position: absolute;
 	border-radius: 0;
 	opacity: 90%;
-	padding: 2px;
-	top:3rem;
+	padding: 3px;
+	top: calc(var(--text-overlay-top-height) + var(--border-width)) ;
 }
 .my-button-overlay-left {
-	left: calc(0.5em + 3px) ;
+	left: var(--overlay-offset) ;
 }
 .my-button-overlay-right {
-	right: calc(0.5em + 3px) ;
+	right: var(--overlay-offset) ;
 }
 
 .my-history {
@@ -193,4 +203,9 @@ body {
 
 .my-no-wrap {
 	white-space: nowrap ;
+}
+
+.my-opacity-100 {
+	opacity: 100 ;
+	transition: 0.2s;
 }
