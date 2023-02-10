@@ -140,6 +140,11 @@ body {
 	font-family: 'Roboto', sans-serif ;
 }
 
+.my-screenshot-container {
+	border: 2px solid black;
+	box-shadow: 3px 3px 12px rgba(0,0,0,0.6);
+}
+
 /*--------------------------------------------------------
 |                  Misc element styling                  |
 --------------------------------------------------------*/
@@ -148,6 +153,16 @@ body {
 	background: #0001 ;
 	padding: 1em;
 	border: 3px outset white ;
+}
+
+.my-buttons {
+	display: flex;
+	justify-content:space-around;
+	margin-bottom: 1em;
+}
+.my-buttons button {
+	width: 10em;
+	box-shadow: 1px 1px 8px rgba(0,0,0,0.75);
 }
 
 /*--------------------------------------------------------
@@ -159,6 +174,7 @@ body {
 	font-family: 'Lora', serif;
 	text-align: center;
 }
+
 .my-section-title {
 	font-size: 36px;
 	box-shadow: 1px 1px 8px rgba(0,0,0,0.75);
