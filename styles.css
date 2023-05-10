@@ -169,10 +169,14 @@ body {
 	display: flex;
 	justify-content:space-around;
 	margin-bottom: 1em;
+	gap: 4px;
 }
 .my-buttons button {
 	width: 10em;
 	box-shadow: 1px 1px 8px rgba(0,0,0,0.75);
+}
+.my-buttons.my-buttons-narrow button {
+	width: 7em;
 }
 
 /*--------------------------------------------------------
