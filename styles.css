@@ -213,3 +213,12 @@ body {
 	opacity: 100 ;
 	transition: 0.2s;
 }
+
+.scale-80pc {
+	scale: 0.8 ;
+}
+
+.scale-to-100pc {
+	scale: 1 ;
+	transition: 0.5s ;
+}
