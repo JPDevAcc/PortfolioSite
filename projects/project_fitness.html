@@ -12,7 +12,7 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="../styles.css">
-	<script src="js/main.js" type="module" defer></script>
+	<script src="../js/versionSelect.js" type="module" defer></script>
 </head>
 <body>
 	<header class="mb-4">
@@ -55,17 +55,55 @@
 			<h2 class="my-section-title">~ The Project ~</h2>
 
 			<!-- PROJECT LINKS -->
-			<nav class="my-buttons my-buttons-narrow">
-				<a href="https://jpdev-fitness-app.onrender.com" target="_blank">
-					<button class="btn btn-primary">Website<br>(front-end)</button>
-				</a>
-				<a href="https://github.com/JPDevAcc/fitness-app" target="_blank">
-					<button class="btn btn-primary">Repository<br>(front-end)</button>
-				</a>
-				<a href="https://github.com/JPDevAcc/fitness-backend" target="_blank">
-					<button class="btn btn-primary">Repository<br>(back-end)</button>
-				</a>
-			</nav>
+			<noscript>
+			<section>
+				<h3 class="text-center">Updated version*</h3>
+					<nav class="my-buttons my-buttons-narrow">
+						<a href="https://jpdevx-fitness-app.onrender.com" target="_blank">
+							<button class="btn btn-primary">Website<br>(front-end)</button>
+						</a>
+						<a href="https://github.com/JPDevAccX/fitness-app" target="_blank">
+							<button class="btn btn-primary">Repository<br>(front-end)</button>
+						</a>
+						<a href="https://github.com/JPDevAccX/fitness-backend" target="_blank">
+							<button class="btn btn-primary">Repository<br>(back-end)</button>
+						</a>
+					</nav>
+
+					<h3 class="text-center">Original version</h3>
+					<nav class="my-buttons my-buttons-narrow">
+						<a href="https://jpdev-fitness-app.onrender.com" target="_blank">
+							<button class="btn btn-primary">Website<br>(front-end)</button>
+						</a>
+						<a href="https://github.com/JPDevAcc/fitness-app" target="_blank">
+							<button class="btn btn-primary">Repository<br>(front-end)</button>
+						</a>
+						<a href="https://github.com/JPDevAcc/fitness-backend" target="_blank">
+							<button class="btn btn-primary">Repository<br>(back-end)</button>
+						</a>
+					</nav>
+				</section>
+			</noscript>
+
+			<section id="fitness_main_links" class="d-none">
+				<div class="text-center mb-3">
+					Version: 
+					<select id="main_links_select_version">
+					</select>
+				</div>
+				
+				<nav class="my-buttons my-buttons-narrow">
+					<a id="link_web_frontend" href="https://jpdevx-fitness-app.onrender.com" target="_blank">
+						<button class="btn btn-primary">Website<br>(front-end)</button>
+					</a>
+					<a id="link_repo_frontend" href="https://github.com/JPDevAccX/fitness-app" target="_blank">
+						<button class="btn btn-primary">Repository<br>(front-end)</button>
+					</a>
+					<a id="link_repo_backend" href="https://github.com/JPDevAccX/fitness-backend" target="_blank">
+						<button class="btn btn-primary">Repository<br>(back-end)</button>
+					</a>
+				</nav>
+			</section>
 
 			<section class="text-center">
 				<b>Demo login: user@test.com / TyrianAndBlue775</b>
@@ -175,6 +213,14 @@
 								These include <b>fixing any remaining known issues</b> and <b>extending automated test coverage</b>, improved <b>front-end and back-end validation</b>, 
 								better <b>account security</b> (with e-mail address validation and optional 2FA), and support for <b>finding users by approximate location</b>.  
 							</p>
+							<p>
+								<b>
+									* Updated version includes bugfixes, UI improvements, code-refactoring, and some extra features.
+									This additional work was carried out independently after the end of the group project
+									and to date has consisted of approximately 20 hours of additional development time spread over a couple of weeks.
+								</b> 
+							</p>
+
 						</section>
 					</div>
 				</section>
