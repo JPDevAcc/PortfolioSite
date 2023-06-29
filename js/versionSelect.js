@@ -1,6 +1,16 @@
 // Type: Module (with side-effects)
 
 const versions = {
+	cipher: {
+		"Updated *": {
+			link_web: 'https://jpdevaccx.github.io/JSCipher',
+			link_repo: 'https://github.com/JPDevAccX/JSCipher',
+		},
+		"Original": {
+			link_web: 'https://jpdevacc.github.io/JSCipher',
+			link_repo: 'https://github.com/JPDevAcc/JSCipher',
+		}
+	},
 	fitness: {
 		"Updated *": {
 			link_web_frontend: 'https://jpdevx-fitness-app.onrender.com',
