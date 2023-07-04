@@ -11,6 +11,16 @@ const versions = {
 			link_repo: 'https://github.com/JPDevAcc/JSCipher',
 		}
 	},
+	socialcards: {
+		"Updated *": {
+			link_web: 'https://jpdevaccx.github.io/ReactSocialGroupProject',
+			link_repo: 'https://github.com/JPDevAccX/ReactSocialGroupProject',
+		},
+		"Original": {
+			link_web: 'https://jpdevacc.github.io/ReactSocialDeployment',
+			link_repo: 'https://github.com/JPDevAcc/ReactSocialGroupProject',
+		}
+	},
 	fitness: {
 		"Updated *": {
 			link_web_frontend: 'https://jpdevx-fitness-app.onrender.com',
