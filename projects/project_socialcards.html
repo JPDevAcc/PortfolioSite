@@ -12,6 +12,7 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="../styles.css">
+	<script src="../js/versionSelect.js" type="module" defer></script>
 </head>
 <body>
 	<header class="mb-4">
@@ -54,14 +55,52 @@
 			<h2 class="my-section-title">~ The Project ~</h2>
 
 			<!-- PROJECT LINKS -->
-			<nav class="my-buttons">
-				<a href="https://jpdevacc.github.io/ReactSocialDeployment" target="_blank">
-					<button class="btn btn-primary">Website</button>
-				</a>
-				<a href="https://github.com/JPDevAcc/ReactSocialGroupProject" target="_blank">
-					<button class="btn btn-primary">Repository</button>
-				</a>
-			</nav>
+			<noscript>
+				<section>
+					<h3 class="text-center">Updated version*</h3>
+					<nav class="my-buttons">
+					<a href="https://jpdevaccx.github.io/ReactSocialGroupProject" target="_blank">
+						<button class="btn btn-primary">Website</button>
+					</a>
+					<a href="https://github.com/JPDevAccX/ReactSocialGroupProject" target="_blank">
+						<button class="btn btn-primary">Repository</button>
+					</a>
+					</nav>
+
+					<h3 class="text-center">Original version</h3>
+					<nav class="my-buttons">
+						<a href="https://jpdevacc.github.io/ReactSocialDeployment" target="_blank">
+							<button class="btn btn-primary">Website</button>
+						</a>
+						<a href="https://github.com/JPDevAcc/ReactSocialGroupProject" target="_blank">
+							<button class="btn btn-primary">Repository</button>
+						</a>
+					</nav>
+				</section>
+			</noscript>
+
+			<section id="socialcards_main_links" class="d-none">
+				<div class="text-center mb-3">
+					Version: 
+					<select id="main_links_select_version">
+					</select>
+				</div>
+				
+				<nav class="my-buttons">
+					<a id="link_web" href="https://jpdevaccx.github.io/ReactSocialGroupProject" target="_blank">
+						<button class="btn btn-primary">Website</button>
+					</a>
+					<a id="link_repo" href="https://github.com/JPDevAccX/ReactSocialGroupProject" target="_blank">
+						<button class="btn btn-primary">Repository</button>
+					</a>
+				</nav>
+			</section>
+
+			<section class="text-center">
+				<p>
+					<b>Admin login: Admin / Admin123</b>
+				</p>
+			</section>
 
 			<div class="row g-3">
 				<!-- TEXT -->
@@ -78,11 +117,13 @@
 							and allowed for a more rapid development process thanks to reactive updates and features like JSX.
 						</p>
 						<p>
-							My main contributions were the user registration page, complete with form validation, and the administration page where an 'admin' user could list/remove other users.
+							My main contributions were the user registration page, complete with form validation, and the administration page where an 'admin' user could list and remove other users.
 							I also provided a starting framework for the project with basic state handling.
 						</p>
 						<p>
-							<b>Admin login: Admin / Admin123</b>
+							<b>
+								* Updated version includes bugfixes and UI improvements
+							</b> 
 						</p>
 					</div>
 				</section>
