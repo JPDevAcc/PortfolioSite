@@ -1,6 +1,16 @@
 // Type: Module (with side-effects)
 
 const versions = {
+	quiz: {
+		"Updated *": {
+			link_web: 'https://jpdevaccx.github.io/JSQuiz',
+			link_repo: 'https://github.com/JPDevAccX/JSQuiz',
+		},
+		"Original": {
+			link_web: 'https://jpdevacc.github.io/JSQuiz',
+			link_repo: 'https://github.com/JPDevAcc/JSQuiz',
+		}
+	},
 	cipher: {
 		"Updated *": {
 			link_web: 'https://jpdevaccx.github.io/JSCipher',
