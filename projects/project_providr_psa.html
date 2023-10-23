@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>James Percival | Full Stack Developer</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+	<header class="mb-4">
+
+		<!-- JUMBOTRON -->
+    <div class="container-fluid ps-4 py-4 my-jumbotron">
+        <h1 class="display-6 fw-bold">James Percival - Full Stack Developer | Portfolio</h1>
+      <p class="col-md-8 fs-4">
+				<span class="fw-bold">Providr Support-App<br></span>
+			</p>
+    </div>
+
+		<!-- NAVBAR -->
+		<nav class="navbar navbar-expand-sm navbar-dark bg-dark my-navbar">
+			<div class="container-fluid">
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav me-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="..">Home</a>
+						</li>
+					</ul>
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" href="#footer">Contact Details</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+  </header>
+
+	<!-- MAIN BODY CONTENT -->
+	<main class="container my-body-container">
+
+		<!-- INTRODUCTION -->
+		<section class="my-intro-outer">
+			<h2 class="my-section-title">~ The Project ~</h2>
+
+			<div class="row g-3">
+				<!-- TEXT -->
+				<section class="col-xl text-center my-inset-panel">
+					<h3 class="my-section-subtitle">Description</h3>
+					<div class="mt-3">
+						<section>
+							<p>
+								This was a recent project carried out for <a href="https://providr.uk/">Providr Ltd</a> to design and implement a support application
+								allowing both potential and existing customers to easily contact the company's helpdesk for business queries or technical assistance. 
+							</p>
+							<p>
+								The company had recently moved from Vue2 to Vue3 for client-side application development, and it was also selected for this project.
+								Primary responsibility for the front-end was initially given to a new volunteer, with my main focus to be the back-end functionality and admin-interface
+								implemented in PHP / MySQL.
+							</p>
+							<p>
+								My general design for the system could be likened to a hierarchical permission-based e-mail system and aimed to be quite flexible.
+								While primarily an internal system, messages can also be sent from a web-form, and it's also possible to have messages sent to a regular e-mail inbox, 
+								these being either copies of internal messages, or ones sent to individuals who don't have a full account on the system (e.g. potential customers that had just used the web-form).
+							</p>
+							<p>
+								A couple of months into the project, I would also take over the front-end after the employee working on it left the organisation.
+								Some basic groundwork including some initial work on the "Messages" page was in place by this point and proved to be a good starting point, although the rest of the UI and the state management and network code still remained to be completed. 
+								This in-fact proved to be a good opportunity to make improvements to some general-purpose client-side network code that I had been working on as part of previous projects.<br>
+							</p>
+							<p>
+								Overall, I found all aspects of this project to be highly rewarding and constructive for my personal development in gaining better familiarity with Vue3 and with improving my UX and database-design skills, and I'm very happy with the end-result.
+							</p>
+
+						</section>
+					</div>
+				</section>
+
+				<!-- SCREENSHOTS -->
+				<section class="col text-center my-inset-panel">
+					<h3 class="my-section-subtitle">Screenshots</h3>
+					<div class="mt-3 my-screenshot-container">
+						<img src="../images/ss_providr_psa1.png" alt="Screenshot of the 'Compose' form">
+					</div>
+					<div class="mt-3 my-screenshot-container">
+						<img src="../images/ss_providr_psa2.png" alt="Screenshot of the 'Messages' view">
+					</div>
+					<div class="mt-3 my-screenshot-container">
+						<img src="../images/ss_providr_psa3.png" alt="Screenshot of an opened message">
+					</div>
+				</section>
+			</div>
+		</section>
+	</main>
+	
+	<!-- FOOTER -->
+	<footer id="footer" class="my-footer">
+		<div class="d-flex justify-content-between">
+			<span>Site Design Copyright &#169; James Percival 2023</span>
+			<span class="text-end">Last Updated 2023-10-23</span>
+		</div>
+		<div class="my-contact-details">
+			E-mail: <a href="mailto:perciv.jam@gmail.com">perciv.jam@gmail.com</a><br>
+			LinkedIn: <a href="https://www.linkedin.com/in/james-p-1ba6ab265/">https://www.linkedin.com/in/james-p-1ba6ab265</a>
+		</div>
+	</footer>
+</body>
+</html>
